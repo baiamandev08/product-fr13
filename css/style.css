@@ -676,7 +676,9 @@ body {
     text-align: center;
     align-items: center;
 }
+.user-general img{
 
+    width: 80px;}
 .user-block-text h3 {
     color: #2F281E;
     font-size: 16px;
@@ -1048,7 +1050,9 @@ body {
     background: #FFF;
     padding: 13px 35px;
 }
-
+.join-block img{
+    width: 316px;
+}
 /*join end*/
 
 /*footer start*/
