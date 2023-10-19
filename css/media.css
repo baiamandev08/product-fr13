@@ -1,0 +1,139 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+
+    .user-general {
+
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-text p {
+        width: 458px;
+    }
+
+    .hero-nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .product-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .management {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .support {
+        flex-direction: column;
+    }
+
+    .support-text {
+        padding-top: 30px;
+    }
+
+    .man-general h2 {
+        padding-top: 30px;
+    }
+
+    .for {
+        flex-direction: column-reverse;
+    }
+
+    .price-general,
+    .say-general {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .price-block,
+    .say-block {
+        margin: 10px 0;
+    }
+
+    .join-block{
+        flex-direction: column;
+        height: 90%;
+        text-align: center;
+        padding: 20px 0 0 0 ;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .header-nav{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .media-block{
+        flex-direction: row-reverse;
+    }
+.footer-general{
+    justify-content: space-around;
+}
+.footer-input{
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+}
+}
+
+@media (max-width: 576px) {
+    .media-img{
+        width: 90%;
+    }
+    .footer-general{
+flex-wrap: wrap    }
+    .product h1{
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero-text h1,
+    .hero-text p{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .management-img{
+        width: 90%;
+    }
+    .man-general p,
+    .join-block-text h1,
+    .user h1,
+    .user p,
+    .slider p,
+    .support-text p,
+    .for-text p,
+    .support-icon h6{
+        width: 90%;
+    }
+}
